@@ -4,6 +4,8 @@ Very basic logging functionality
 This library prints messages in the following format:
 `DEBUG 00:00:00 | @ function:42 | some message`
 
+![Example](https://user-images.githubusercontent.com/44266876/117521882-6fd0ec80-afb0-11eb-9384-6415d406f5ec.png)
+
 Call `ta_init_log(filename, enable_color)` before logging anything.<br>
 The filename parameter specifies a file to write the logged message to, if you pass NULL to this parameter, file logging is disabled.<br>
 The enable_color parameters specifies whether the log levels (INFO, WARNING, ERROR, etc.) should be colored.<br><br>
