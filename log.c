@@ -99,7 +99,7 @@ int rm_init_log(const char *path, int enable_terminal_colors) {
         g_instance.file = 0;
     }
 
-    enable_terminal_color();
+    if (enable_terminal_colors) enable_terminal_color();
     return 0;
 }
 
